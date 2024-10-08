@@ -1,0 +1,14 @@
+pipeline {
+    agent any
+    stages {
+        stage('Deploy HTML') {
+            steps {
+                script {
+                    // PowerShell command to copy the file
+                    def command = "Copy-Item -Path /var/lib/jenkins/workspace/html/test.html' -Destination '\\\\20.168.208.240\\C$\\inetpub\\wwwroot\\' -Credential (New-Object System.Management.Automation.PSCredential('azureuser', (ConvertTo-SecureString 'password@1234' -AsPlainText -Force)))"
+                    bat "powershell.exe -Command '${command}'"
+                }
+            }
+        }
+    }
+}
