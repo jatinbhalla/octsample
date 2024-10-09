@@ -1,0 +1,4 @@
+Try git cheat sheet
+try to setup jenkins
+try to print hello world using jenkins
+check what are the different items types available on the jenkins and its differences.
