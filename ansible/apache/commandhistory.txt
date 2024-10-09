@@ -1,0 +1,95 @@
+history
+    1  sudo apt update
+    2  sudo apt install software-properties-common
+    3  sudo add-apt-repository --yes --update ppa:ansible/ansible
+    4  sudo apt install ansible
+    5  ansible --version
+    6  cd /usr/bin/ansible
+    7  cd /usr/bin/
+    8  ls
+    9  cat ansible
+   10  cd ..
+   11  cd /etc/ansible/
+   12  ls
+   13  cat hosts
+   14  sudo vim myfirstplaybook.yml
+   15  sudo vim hosts
+   16  sudo vim test_script.sh
+   17  ls
+   18  ssh-keygen -t rsa -b 4096
+   19  cd  /home/azureuser/.ssh/
+   20  ls
+   21  ssh-copy-id azureuser@52.170.96.253
+   22  ssh azureuser@52.170.96.253
+   23  ssh-copy-id azureuser@52.170.96.253
+   24  ssh azureuser@52.170.96.253
+   25  chmod 777 ~/.ssh
+   26  chmod 777 ~/.ssh/id_rsa
+   27  chmod 777 ~/.ssh/id_rsa.pub
+   28  ssh azureuser@52.170.96.253
+   29  sudo systemctl status ssh
+   30  ssh azureuser@52.168.91.228
+   31  ssh-copy-id azureuser@52.168.91.228
+   32  ssh azureuser@52.168.91.228
+   33  ls
+   34  cat id_rsa
+   35  cat id_rsa.oub
+   36  ls
+   37  cat id_rsa.pub
+   38  cd /etc/ansible/
+   39  sudo vim hosts
+   40  ansible all -m ping -u azureuser
+   41  ssh azureuser@52.168.91.228
+   42  chmod 700 ~/.ssh
+   43  chmod 600 ~/.ssh/id_rsa
+   44  chmod 644 ~/.ssh/id_rsa.pub
+   45  ssh azureuser@52.168.91.228
+   46  ansible all -m ping -u azureuser
+   47  ls
+   48  ansible-playbook myfirstplaybook.yml
+   49  ls
+   50  sudo vim ansible.cfg
+   51  sudo vim hosts
+   52  anisble-galaxy init apache --offline
+   53  ansible-galaxy init apache --offline
+   54  sudo ansible-galaxy init apache --offline
+   55  ls
+   56  tree apache
+   57  sudo apt install tree
+   58  tree apache
+   59  ls
+   60  sudo ansible-galaxy init test --offline
+   61  tree test
+   62  cd apache
+   63  ls
+   64  cd files
+   65  sudo vim apache2.conf
+   66  sudo vim copy.html
+   67  cd ..
+   68  cd handlers/
+   69  sudo vim main.yml
+   70  cd ..
+   71  cd meta/
+   72  sudo vim main.yml
+   73  cd ..
+   74  cd tasks/
+   75  ls
+   76  sudo vim main.yml
+   77  sudo vim install.yml
+   78  sudo vim configure.yml
+   79  sudo vim service.yml
+   80  cd ..
+   81  ls
+   82  sudo vim rolesplaybook.yml
+   83  ansible-playbook rolesplaybook.yml
+   84  sudo vim /etc/ansible/apache/handlers/main.yml
+   85  ansible-playbook rolesplaybook.yml
+   86  sudo vim /etc/ansible/apache/handlers/main.yml
+   87  ansible-playbook rolesplaybook.yml
+   88  sudo vim /etc/ansible/apache/handlers/main.yml
+   89  ansible-playbook rolesplaybook.yml
+   90  sudo vim rolesplaybook.yml
+   91  ansible-playbook rolesplaybook.yml
+   92  sudo vim /etc/ansible/apache/tasks/configure.yml
+   93  ansible-playbook rolesplaybook.yml
+   94  history
