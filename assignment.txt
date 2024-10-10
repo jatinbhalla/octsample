@@ -10,3 +10,5 @@ check what are the different items types available on the jenkins and its differ
 2. search for hands on activity with docker swarm and check real time examples
 3. compare between docker swarm and kubernets
 4. try to create docker file and using docker compose file deploy any html website with volume and database
+5. create Jenkins ci pipeline in which you are creating git repo and storing docker file with code.
+   requirement: whenever you make any changes in the code it should trigger the pipeline and new image should be pushed on docker hub repo
