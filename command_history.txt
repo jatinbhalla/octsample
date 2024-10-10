@@ -1,0 +1,50 @@
+docker images
+docker tag ubuntu dockertestjatin.azurecr.io/ubuntu
+docker az login
+az login
+az acr login --name dockertestjatin
+docker images
+docker push dockertestjatin.azurecr.io/ubuntu
+cd C:\Users\lenovo\Documents\intellipat\octbatchintellipat\docker
+docker build
+docker build demo
+docker build dockerfile
+docker build -t demo
+docker build -t demo .
+docker images
+docker ps
+docker run -it -d demo
+docker ps
+docker exec -it 5a0e91bd7568 bash
+docker ps
+docker kill 5a0e91bd7568
+docker rm 5a0e91bd7568
+docker run -it -d demo -p 80:80
+docker run -it -d -p 80:80 demo
+docker ps
+docker inspect
+docker inspect 433debf8aa47
+docker ps -a
+docker build -t demo1 .
+docker ps
+docker stop 433debf8aa47
+git add .
+git commit -m "docker"
+docker push
+git push
+docker ps
+docker kill f4c77fb3ec58
+docker rm f4c77fb3ec58
+docker ps
+docker run -it --name container1 -d ubuntu
+docker ps
+docker run -it --name container2 --link container1 -d ubuntu
+docker ps
+docker exec -it 6ee6576f0bfc bash
+docker exec -it container2 bash
+docker-compose --version
+docker-compose up
+docker-compose -f docker-compose1.yml up
+history
+doskey /history
+doskey /history > command_history.txt
