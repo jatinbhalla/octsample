@@ -2,3 +2,11 @@ Try git cheat sheet
 try to setup jenkins
 try to print hello world using jenkins
 check what are the different items types available on the jenkins and its differences.
+
+
+
+10th oct
+1. try to create a container with bind mounts
+2. search for hands on activity with docker swarm and check real time examples
+3. compare between docker swarm and kubernets
+4. try to create docker file and using docker compose file deploy any html website with volume and database
