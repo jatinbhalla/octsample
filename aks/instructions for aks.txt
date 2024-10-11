@@ -33,7 +33,9 @@ az sql db create -g akshandsonlab -s jatinbhallaoct -n mhcdb --service-objective
 4. run below commands after altering with your values for execution from laptop
 
 docker-compose -f docker-compose.ci.build.yml up
+
 docker-compose -f docker-compose.yml build
+
 docker login -u jatinbhalla -p vUDIHpPpGGtO9GD3RxmVGE7vxjl6zNmxbC/RvbV9qu+ACRAh4x/c acrnew1234.azurecr.io
 
 docker-compose -f docker-compose.yml push
